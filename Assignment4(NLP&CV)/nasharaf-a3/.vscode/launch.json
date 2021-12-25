@@ -1,0 +1,19 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            // "args": ["courier-train.png", "bc.train", "test-0-0.png"]
+            // "args": ["bc.train", "bc.test"]
+            "args": ["./part2/test_images/30.png", "0", "20", "0" ,"70"]
+
+        }
+    ]
+}
